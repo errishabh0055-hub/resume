@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishabh Parashar - Resume</title>
+
+    <style>
+        /* GLOBAL DESIGN */
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #050505;
+            color: #00ffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            padding: 25px 10px;
+            text-align: center;
+            background: linear-gradient(135deg, #0d0d0d, #000000);
+            box-shadow: 0 0 25px #00ffff;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            margin: 0;
+            text-shadow: 0 0 18px #00ffff;
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1.1rem;
+            color: #ff00ff;
+            text-shadow: 0 0 6px #ff00ff;
+        }
+
+        @keyframes glow {
+            from { text-shadow: 0 0 12px #00ffff; }
+            to { text-shadow: 0 0 25px #00ffff, 0 0 35px #00ffff; }
+        }
+
+        /* CONTENT */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        section {
+            background: rgba(0, 0, 0, 0.85);
+            padding: 25px;
+            margin-bottom: 35px;
+            border: 1px solid #00ffff;
+            border-radius: 12px;
+            box-shadow: 0 0 18px rgba(0, 255, 255, 0.4);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        section:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 0 25px rgba(0, 255, 255, 0.8);
+        }
+
+        h2 {
+            color: #ff00ff;
+            margin-bottom: 15px;
+            font-size: 2rem;
+            text-shadow: 0 0 10px #ff00ff;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+
+        a {
+            color: #00ffff;
+            border-bottom: 1px dotted #00ffff;
+        }
+
+        a:hover {
+            text-shadow: 0 0 10px #00ffff;
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #0d0d0d;
+            color: #00ffff;
+            font-size: 0.9rem;
+            border-top: 1px solid #00ffff;
+        }
+
+        /* TYPEWRITER EFFECT */
+        .typewriter {
+            overflow: hidden;
+            border-right: 2px solid #00ffff;
+            white-space: nowrap;
+            width: 0;
+            margin: 0 auto;
+            animation: typing 3.2s steps(45, end) forwards, blink 0.75s step-end infinite;
+        }
+
+        @keyframes typing {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+
+        @keyframes blink {
+            from, to { border-color: transparent; }
+            50% { border-color: #00ffff; }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="typewriter">Rishabh Parashar — Resume</h1>
+        <p>AI-Driven Insights • Data Analytics Enthusiast</p>
+    </header>
+
+    <div class="container">
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am <strong>Rishabh Parashar</strong>, a passionate Data Analytics fresher skilled in Python, SQL, Power BI, and Excel.
+                I specialize in <strong>data cleaning, transformation, and dashboard creation</strong> to generate meaningful insights.
+                I am eager to join an organization as an intern to gain practical industry exposure.
+            </p>
+            <p><strong>Location:</strong> Jaipur, Rajasthan<br>
+               <strong>Phone:</strong> 7426032052<br>
+               <strong>Email:</strong> er.rishabh0055@gmail.com</p>
+            <p><a href="https://www.linkedin.com/in/rishabh-parashar0555" target="_blank">Visit LinkedIn Profile</a></p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li>Entry-Level Data Analyst with hands-on experience in <strong>Python, SQL, Power BI</strong>, and <strong>Excel</strong>.</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>B.Tech in Computer Science & Engineering — AECRC (BTU), Ajmer | 2024</li>
+                <li>Class 12 — Meera Sr. Sec. School, Ajmer | 2020</li>
+                <li>Class 10 — Govt. School, Ajmer | 2018</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Data Analytics Project | Python, SQL, Power BI</strong>
+                    <ul>
+                        <li>Cleaned and transformed 50,000+ rows of raw business data.</li>
+                        <li>Designed dynamic dashboards in Power BI to track KPIs.</li>
+                        <li>Used SQL queries for efficient data extraction and analysis.</li>
+                        <li><a href="https://drive.google.com/drive/folders/1vxD_JQ484jWslusWN-tXXNdGP7rdPa17" target="_blank">View Project</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Technical:</strong> Python, SQL, Power BI, Excel, OOPS, DSA</li>
+                <li><strong>Soft Skills:</strong> Communication, Email Writing, Leadership</li>
+                <li><strong>Languages:</strong> Hindi, English</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>I am open to internship opportunities and collaborative projects in Data Analytics.</p>
+            <p><strong>Email:</strong> er.rishabh0055@gmail.com<br>
+               <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rishabh-parashar0555" target="_blank">Connect Here</a></p>
+        </section>
+
+    </div>
+
+    <footer>
+        © 2025 Rishabh Parashar • All Rights Reserved
+    </footer>
+
+    <script>
+        console.log("Rishabh's Resume Loaded Successfully!");
+    </script>
+
+</body>
+</html>
