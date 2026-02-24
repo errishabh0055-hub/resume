@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rishabh Parashar | Portfolio</title>
+
+<style>
+:root{
+    --primary:#4da6ff;
+    --light:#f2f9ff;
+    --white:#ffffff;
+    --text:#333;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:var(--light);
+    color:var(--text);
+}
+
+/* Scroll Progress */
+#progressBar{
+    position:fixed;
+    top:0;
+    left:0;
+    height:4px;
+    background:var(--primary);
+    width:0%;
+    z-index:1000;
+}
+
+/* Navbar */
+nav{
+    position:fixed;
+    width:100%;
+    top:0;
+    background:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 10%;
+    box-shadow:0 5px 15px rgba(0,0,0,0.05);
+    z-index:999;
+}
+
+nav .logo{
+    font-weight:bold;
+    color:var(--primary);
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:var(--text);
+    font-size:14px;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:var(--primary);
+}
+
+/* Hero */
+header{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+    background:linear-gradient(to bottom,#ffffff,#dff1ff);
+    padding-top:90px;
+}
+
+.profile-img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:6px solid white;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+    margin-bottom:20px;
+    animation:float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%,100%{transform:translateY(0)}
+    50%{transform:translateY(-10px)}
+}
+
+header h1{
+    font-size:40px;
+    color:var(--primary);
+}
+
+header p{
+    margin:15px 0;
+}
+
+.btn{
+    padding:10px 22px;
+    background:var(--primary);
+    color:white;
+    border-radius:25px;
+    text-decoration:none;
+    transition:0.3s;
+    display:inline-block;
+}
+
+.btn:hover{
+    background:#2d8cff;
+    transform:translateY(-3px);
+}
+
+/* Sections */
+section{
+    padding:80px 10%;
+}
+
+.section-title{
+    text-align:center;
+    font-size:28px;
+    color:var(--primary);
+    margin-bottom:40px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    margin-bottom:25px;
+    opacity:0;
+    transform:translateY(40px);
+    transition:all 0.6s ease;
+}
+
+.card.show{
+    opacity:1;
+    transform:translateY(0);
+}
+
+.skills-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:20px;
+    background:#dff1ff;
+}
+
+@media(max-width:768px){
+    nav ul{
+        display:none;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div id="progressBar"></div>
+
+<nav>
+    <div class="logo">Rishabh Parashar</div>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<header>
+    <img src="profile.png"alt="Rishabh" class="profile-img">
+    <h1>Rishabh Parashar</h1>
+    <p>Data Analyst | Python | SQL | Power BI</p>
+    <a href="#about" class="btn">Start Journey</a>
+</header>
+
+<section id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="card">
+        Hello, I am Rishabh Parashar, a passionate Data Analyst and B.Tech Computer Science graduate.
+        I specialize in Python, SQL, Power BI, and data visualization.
+        I transform raw data into meaningful business insights.
+    </div>
+</section>
+
+<section id="education">
+    <h2 class="section-title">Education</h2>
+
+    <div class="card">
+        <h3>Class 10 (RBSE)</h3>
+        Govt. School, Ajmer | 2018
+    </div>
+
+    <div class="card">
+        <h3>Class 12 (RBSE)</h3>
+        Meera Sr. Sec. School, Ajmer | 2020
+    </div>
+    <div class="card">
+        <h3>JEE MAINS</h3>
+        JEE Mains 2020: 75.78%
+    </div>
+
+    <div class="card">
+        <h3>B.Tech – Computer Science & Engineering</h3>
+        AECRC (BTU), Ajmer | 2024 <br>
+        Percentage: 74.45% <br>
+        
+    </div>
+</section>
+
+<section id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-container">
+        <div class="card">Python</div>
+        <div class="card">SQL</div>
+        <div class="card">Power BI</div>
+        <div class="card">Excel</div>
+        <div class="card">OOPS</div>
+        <div class="card">Data Structures & Algorithms</div>
+        <div class="card">Communication</div>
+        <div class="card">Leadership</div>
+        <div class="card">Email Writing</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="card">
+        <h3>Data Analytics Project</h3>
+        - Cleaned 50,000+ rows <br>
+        - Built Power BI dashboards <br>
+        - SQL queries <br><br>
+        <a class="btn" href="https://drive.google.com/drive/folders/1vxD_JQ484jWslusWN-tXXNdGP7rdPa17?usp=drive_link" target="_blank">View Project</a>
+    </div>
+</section>
+
+<section id="contact">
+    <h2 class="section-title">Connect</h2>
+    <div class="card" style="text-align:center;">
+        <a class="btn" href="https://github.com/errishabh0055-hub" target="_blank">GitHub</a>
+        <a class="btn" href="http://www.linkedin.com/in/rishabh-parashar0555" target="_blank">LinkedIn</a>
+        <a class="btn" href="Resume.pdf" download>Download Resume</a>
+    </div>
+</section>
+
+<footer>
+    © 2026 Rishabh Parashar | All Rights Reserved
+</footer>
+
+<script>
+// Scroll Progress Bar
+window.onscroll = function() {
+    let winScroll = document.documentElement.scrollTop;
+    let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    let scrolled = (winScroll / height) * 100;
+    document.getElementById("progressBar").style.width = scrolled + "%";
+};
+
+// Reveal Animation
+const cards = document.querySelectorAll('.card');
+
+function reveal(){
+    let triggerBottom = window.innerHeight * 0.85;
+    cards.forEach(card=>{
+        let cardTop = card.getBoundingClientRect().top;
+        if(cardTop < triggerBottom){
+            card.classList.add('show');
+        }
+    });
+}
+
+window.addEventListener('scroll', reveal);
+reveal();
+</script>
+
+</body>
+</html>
