@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rishabh Parashar | Data Analyst & Analytics Engineer</title>
+  <meta name="description" content="Portfolio of Rishabh Parashar — Data Analyst and Computer Science graduate specializing in Python, SQL, Power BI, and Excel. Transforming raw data of 50,000+ records into actionable business insights." />
+  <meta name="keywords" content="Rishabh Parashar, Data Analyst, Power BI, Python, SQL, DAX, Business Intelligence, Data Analytics Portfolio, Jaipur" />
+  <meta name="author" content="Rishabh Parashar" />
+  <meta property="og:title" content="Rishabh Parashar | Data Analyst Portfolio" />
+  <meta property="og:description" content="Turning complex data into clear visualizations, predictive frameworks, and KPI-driven decision-making." />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="light-theme">
+  <!-- Subtle Background Grid & Ambient Glow Orbs -->
+  <div class="bg-decoration" aria-hidden="true">
+    <div class="glow-orb glow-orb-1"></div>
+    <div class="glow-orb glow-orb-2"></div>
+    <div class="glow-orb glow-orb-3"></div>
+    <div class="grid-overlay"></div>
+  </div>
+
+  <!-- Sticky Minimalist Header -->
+  <header class="site-header" id="navbar">
+    <div class="container header-inner">
+      <a href="#home" class="brand-logo" aria-label="Rishabh Parashar Home">
+        <span class="logo-mark">RP</span>
+        <div class="brand-text">
+          <span class="brand-name">Rishabh Parashar</span>
+          <span class="brand-role">Data Analyst</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="btn btn-outline btn-sm" id="openResumeModalBtn" aria-label="Open Resume Preview">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+          <span>Resume</span>
+        </button>
+        <a href="#contact" class="btn btn-primary btn-sm">Let's Connect</a>
+        <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Toggle Mobile Navigation">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-menu" id="mobileMenu">
+      <ul class="mobile-nav-links">
+        <li><a href="#home" class="mobile-nav-link">Home</a></li>
+        <li><a href="#about" class="mobile-nav-link">About</a></li>
+        <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+        <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+        <li><a href="#experience" class="mobile-nav-link">Experience</a></li>
+        <li><a href="#education" class="mobile-nav-link">Education</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      </ul>
+      <div class="mobile-menu-footer">
+        <button class="btn btn-outline btn-full" id="mobileResumeBtn">Preview Resume</button>
+        <a href="Rishabh_Parashar_Resume.pdf" download class="btn btn-primary btn-full">Download Resume PDF</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION
+         ========================================================================== -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="status-pill animate-fade-in">
+            <span class="status-dot"></span>
+            <span class="status-text">Available for Full-Time Roles &bull; Jaipur / Relocate / Remote</span>
+          </div>
+
+          <h1 class="hero-title animate-slide-up">
+            Hi, I'm <span class="text-accent">Rishabh Parashar</span>
+          </h1>
+
+          <p class="hero-subtitle animate-slide-up delay-1">
+            Data Analyst &bull; Turning Raw Data Into Decisive Business Intelligence
+          </p>
+
+          <p class="hero-description animate-slide-up delay-2">
+            Computer Science graduate specializing in <strong>Python</strong>, <strong>SQL</strong>, <strong>Power BI</strong>, and <strong>Excel</strong>. Experienced in transforming complex datasets of <strong>50,000+ records</strong> into automated ETL pipelines, dynamic executive dashboards, and strategic business decisions.
+          </p>
+
+          <!-- Quick Telemetry Badges -->
+          <div class="hero-metrics-strip animate-slide-up delay-3">
+            <div class="metric-item">
+              <span class="metric-number" data-target="50000">0</span><span class="metric-plus">+</span>
+              <span class="metric-label">Records Cleaned &amp; Modeled</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-item">
+              <span class="metric-number" data-target="15">0</span><span class="metric-plus">+</span>
+              <span class="metric-label">Statistical Visualizations</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-item">
+              <span class="metric-number" data-target="80">0</span><span class="metric-plus">%</span>
+              <span class="metric-label">Revenue Driver RFM Cohort</span>
+            </div>
+          </div>
+
+          <!-- Hero CTAs -->
+          <div class="hero-cta-group animate-slide-up delay-4">
+            <a href="#projects" class="btn btn-primary btn-lg">
+              <span>Explore Projects</span>
+              <svg class="icon icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="Rishabh_Parashar_Resume.pdf" download="Rishabh_Parashar_Resume.pdf" class="btn btn-secondary btn-lg">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download Resume</span>
+            </a>
+            <button class="btn btn-outline btn-lg" id="heroPreviewResumeBtn">
+              <span>Preview Resume</span>
+            </button>
+          </div>
+
+          <!-- Social Quick Links -->
+          <div class="hero-social-links animate-slide-up delay-5">
+            <span class="social-caption">Direct Channels:</span>
+            <a href="https://linkedin.com/in/rishabh-parashar0555" target="_blank" rel="noopener noreferrer" class="social-chip" title="LinkedIn Profile">
+              <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/errishabh0055-hub" target="_blank" rel="noopener noreferrer" class="social-chip" title="GitHub Repositories">
+              <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+              </svg>
+              <span>GitHub</span>
+            </a>
+            <a href="mailto:er.rishabh0055@gmail.com" class="social-chip" title="Send Email">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span>er.rishabh0055@gmail.com</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         ABOUT SECTION
+         ========================================================================== -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Bridging Computer Science Engineering &amp; Strategic Business Intelligence</h2>
+          <p class="section-subtitle">
+            A methodical approach to solving complex analytics problems: from raw, messy transaction records to boardroom-ready data intelligence.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Story Card -->
+          <div class="about-story-card">
+            <h3 class="story-title">From Data Chaos to Strategic Clarity</h3>
+            <p class="story-paragraph">
+              Holding a <strong>B.Tech in Computer Science &amp; Engineering</strong> from Aryabhatta College of Engineering (Bikaner Technical University), my technical grounding in <em>Data Structures, Relational Database Management Systems, and Computing Statistics</em> fuels my core approach to analytics.
+            </p>
+            <p class="story-paragraph">
+              I view data not as static numbers on a spreadsheet, but as an operational narrative. By architecting normalized relational database models, writing clean SQL queries with advanced window functions, and building dynamic Power BI dashboards, I enable stakeholders to replace guesswork with concrete, measurable KPIs.
+            </p>
+            <p class="story-paragraph">
+              My recent simulation work with <strong>Tata iQ (Financial Services)</strong> through Forage deepened my focus on credit delinquency risk modeling, GenAI-assisted exploratory data analysis, and explainable AI governance.
+            </p>
+
+            <div class="story-signature-block">
+              <div class="signature-details">
+                <span class="sig-name">Rishabh Parashar</span>
+                <span class="sig-title">Data Analyst &bull; B.Tech Computer Science '24</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5-Stage Lifecycle Card -->
+          <div class="about-pipeline-card">
+            <h3 class="pipeline-card-title">My 5-Stage Data Analytics Lifecycle</h3>
+            <p class="pipeline-card-subtitle">Every project follows a reproducible, audit-friendly engineering workflow:</p>
+
+            <div class="pipeline-steps">
+              <div class="pipeline-step">
+                <div class="step-num">01</div>
+                <div class="step-content">
+                  <h4 class="step-heading">Ingestion &amp; Extraction</h4>
+                  <p class="step-desc">Querying normalized relational databases using SQL (PostgreSQL/SQLite) with CTEs and window functions.</p>
+                </div>
+              </div>
+
+              <div class="pipeline-step">
+                <div class="step-num">02</div>
+                <div class="step-content">
+                  <h4 class="step-heading">Data Cleaning &amp; Wrangling</h4>
+                  <p class="step-desc">Handling missing values, outlier detection, data type casting, and duplicate removal using Pandas and NumPy.</p>
+                </div>
+              </div>
+
+              <div class="pipeline-step">
+                <div class="step-num">03</div>
+                <div class="step-content">
+                  <h4 class="step-heading">Exploratory Data Analysis (EDA)</h4>
+                  <p class="step-desc">Hypothesis testing, statistical distributions, seasonality discovery, and correlation matrices via Seaborn.</p>
+                </div>
+              </div>
+
+              <div class="pipeline-step">
+                <div class="step-num">04</div>
+                <div class="step-content">
+                  <h4 class="step-heading">Data Modeling &amp; BI Development</h4>
+                  <p class="step-desc">Star schema modeling, dynamic DAX measures, slicers, and drill-through paths in interactive Power BI dashboards.</p>
+                </div>
+              </div>
+
+              <div class="pipeline-step">
+                <div class="step-num">05</div>
+                <div class="step-content">
+                  <h4 class="step-heading">Actionable Business Impact</h4>
+                  <p class="step-desc">Delivering KPI tracking reports, RFM segmentation cohorts, and delinquency risk mitigation strategies to executives.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SKILLS SECTION
+         ========================================================================== -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Core Competencies</span>
+          <h2 class="section-title">Technical Skills &amp; Domain Expertise</h2>
+          <p class="section-subtitle">
+            Concrete analytical capabilities backed by real-world datasets, reproducible code notebooks, and business intelligence models.
+          </p>
+        </div>
+
+        <!-- Skills Filter Controls -->
+        <div class="skills-filter-bar">
+          <button class="filter-btn active" data-filter="all">All Disciplines</button>
+          <button class="filter-btn" data-filter="programming">Programming &amp; Data</button>
+          <button class="filter-btn" data-filter="sql">SQL &amp; Databases</button>
+          <button class="filter-btn" data-filter="bi">BI &amp; Visualization</button>
+          <button class="filter-btn" data-filter="excel">Excel &amp; Analytics</button>
+        </div>
+
+        <!-- Skills Grid -->
+        <div class="skills-grid" id="skillsGrid">
+          <!-- Group 1: Programming & Data -->
+          <div class="skill-category-card" data-category="programming">
+            <div class="card-top">
+              <div class="category-icon python-theme">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2zm1 4h-2v5H6v2h5v5h2v-5h5v-2h-5V6z"/>
+                </svg>
+              </div>
+              <h3 class="category-title">Programming &amp; Data Analysis</h3>
+            </div>
+            <p class="category-desc">Data wrangling, vector manipulation, and exploratory visualization using the standard Python data stack.</p>
+            <div class="skill-chips">
+              <span class="skill-chip"><span class="chip-name">Python</span><span class="chip-tag">Core</span></span>
+              <span class="skill-chip"><span class="chip-name">Pandas</span><span class="chip-tag">DataFrames</span></span>
+              <span class="skill-chip"><span class="chip-name">NumPy</span><span class="chip-tag">Arrays &amp; Math</span></span>
+              <span class="skill-chip"><span class="chip-name">Matplotlib</span><span class="chip-tag">Plotting</span></span>
+              <span class="skill-chip"><span class="chip-name">Seaborn</span><span class="chip-tag">Statistical Viz</span></span>
+              <span class="skill-chip"><span class="chip-name">Jupyter Notebook</span><span class="chip-tag">Workflow</span></span>
+              <span class="skill-chip"><span class="chip-name">Google Colab</span><span class="chip-tag">Cloud</span></span>
+              <span class="skill-chip"><span class="chip-name">VS Code</span><span class="chip-tag">IDE</span></span>
+            </div>
+          </div>
+
+          <!-- Group 2: SQL & Databases -->
+          <div class="skill-category-card" data-category="sql">
+            <div class="card-top">
+              <div class="category-icon sql-theme">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                </svg>
+              </div>
+              <h3 class="category-title">SQL &amp; Relational Databases</h3>
+            </div>
+            <p class="category-desc">Complex query design, table schemas, multi-table joins, subqueries, and analytical window functions.</p>
+            <div class="skill-chips">
+              <span class="skill-chip"><span class="chip-name">SQL</span><span class="chip-tag">Standard ANSI</span></span>
+              <span class="skill-chip"><span class="chip-name">PostgreSQL</span><span class="chip-tag">RDBMS</span></span>
+              <span class="skill-chip"><span class="chip-name">SQLite</span><span class="chip-tag">Embedded DB</span></span>
+              <span class="skill-chip"><span class="chip-name">Window Functions</span><span class="chip-tag">Rank / Over</span></span>
+              <span class="skill-chip"><span class="chip-name">Complex Joins</span><span class="chip-tag">Inner / Outer</span></span>
+              <span class="skill-chip"><span class="chip-name">Aggregations</span><span class="chip-tag">Group By / Having</span></span>
+              <span class="skill-chip"><span class="chip-name">Subqueries &amp; CTEs</span><span class="chip-tag">Modular Queries</span></span>
+              <span class="skill-chip"><span class="chip-name">Schema Modeling</span><span class="chip-tag">Normalization</span></span>
+            </div>
+          </div>
+
+          <!-- Group 3: BI & Visualization -->
+          <div class="skill-category-card" data-category="bi">
+            <div class="card-top">
+              <div class="category-icon bi-theme">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M4 9h4v11H4zM10 4h4v16h-4zM16 13h4v7h-4z"/>
+                </svg>
+              </div>
+              <h3 class="category-title">Power BI &amp; Business Intelligence</h3>
+            </div>
+            <p class="category-desc">Designing intuitive, dynamic executive dashboards with custom DAX calculations and drill-down storytelling.</p>
+            <div class="skill-chips">
+              <span class="skill-chip"><span class="chip-name">Power BI</span><span class="chip-tag">Interactive Dashboards</span></span>
+              <span class="skill-chip"><span class="chip-name">DAX</span><span class="chip-tag">Measures &amp; Columns</span></span>
+              <span class="skill-chip"><span class="chip-name">KPI Development</span><span class="chip-tag">Metrics Tracking</span></span>
+              <span class="skill-chip"><span class="chip-name">Data Modeling</span><span class="chip-tag">Star Schema</span></span>
+              <span class="skill-chip"><span class="chip-name">Dynamic Slicers</span><span class="chip-tag">Multi-Filter</span></span>
+              <span class="skill-chip"><span class="chip-name">Drill-Through</span><span class="chip-tag">Hierarchies</span></span>
+              <span class="skill-chip"><span class="chip-name">YoY Growth</span><span class="chip-tag">Time Intelligence</span></span>
+            </div>
+          </div>
+
+          <!-- Group 4: Microsoft Excel -->
+          <div class="skill-category-card" data-category="excel">
+            <div class="card-top">
+              <div class="category-icon excel-theme">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14H6v-2h6v2zm6-4H6v-2h12v2zm0-4H6V7h12v2z"/>
+                </svg>
+              </div>
+              <h3 class="category-title">Microsoft Excel &amp; Spreadsheet Analysis</h3>
+            </div>
+            <p class="category-desc">Rapid ad-hoc data auditing, nested formula modeling, pivot summarization, and conditional logic.</p>
+            <div class="skill-chips">
+              <span class="skill-chip"><span class="chip-name">Pivot Tables</span><span class="chip-tag">Aggregation</span></span>
+              <span class="skill-chip"><span class="chip-name">XLOOKUP / VLOOKUP</span><span class="chip-tag">Formulas</span></span>
+              <span class="skill-chip"><span class="chip-name">Conditional Formatting</span><span class="chip-tag">Highlights</span></span>
+              <span class="skill-chip"><span class="chip-name">Data Cleaning</span><span class="chip-tag">Text-to-Cols / Trim</span></span>
+              <span class="skill-chip"><span class="chip-name">INDEX &amp; MATCH</span><span class="chip-tag">Lookups</span></span>
+              <span class="skill-chip"><span class="chip-name">Chart Building</span><span class="chip-tag">Reporting</span></span>
+            </div>
+          </div>
+
+          <!-- Group 5: Analytics Methodologies & CS Fundamentals -->
+          <div class="skill-category-card" data-category="excel">
+            <div class="card-top">
+              <div class="category-icon analytics-theme">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="12" y1="16" x2="12" y2="12"></line>
+                  <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                </svg>
+              </div>
+              <h3 class="category-title">Analytics Methodologies &amp; CS Foundation</h3>
+            </div>
+            <p class="category-desc">Applied statistical methods, customer behavioral segmentation, and core CS algorithm principles.</p>
+            <div class="skill-chips">
+              <span class="skill-chip"><span class="chip-name">Data Cleaning</span><span class="chip-tag">Anomaly Removal</span></span>
+              <span class="skill-chip"><span class="chip-name">EDA</span><span class="chip-tag">Exploratory Analysis</span></span>
+              <span class="skill-chip"><span class="chip-name">RFM Analysis</span><span class="chip-tag">Customer Segmentation</span></span>
+              <span class="skill-chip"><span class="chip-name">Predictive Concepts</span><span class="chip-tag">Delinquency Risk</span></span>
+              <span class="skill-chip"><span class="chip-name">GenAI-Assisted EDA</span><span class="chip-tag">Tata iQ Framework</span></span>
+              <span class="skill-chip"><span class="chip-name">Statistical Analysis</span><span class="chip-tag">Distributions</span></span>
+              <span class="skill-chip"><span class="chip-name">DSA &amp; OOP</span><span class="chip-tag">CS Core</span></span>
+            </div>
+          </div>
+
+          <!-- Group 6: Soft Skills & Languages -->
+          <div class="skill-category-card" data-category="programming">
+            <div class="card-top">
+              <div class="category-icon soft-theme">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <h3 class="category-title">Professional &amp; Soft Competencies</h3>
+            </div>
+            <p class="category-desc">Communication with non-technical stakeholders, team collaboration, and analytical rigor.</p>
+            <div class="skill-chips">
+              <span class="skill-chip"><span class="chip-name">Analytical Thinking</span><span class="chip-tag">Mindset</span></span>
+              <span class="skill-chip"><span class="chip-name">Problem Solving</span><span class="chip-tag">Root-Cause</span></span>
+              <span class="skill-chip"><span class="chip-name">Stakeholder Storytelling</span><span class="chip-tag">Communication</span></span>
+              <span class="skill-chip"><span class="chip-name">Team Collaboration</span><span class="chip-tag">Agile / Reviews</span></span>
+              <span class="skill-chip"><span class="chip-name">English</span><span class="chip-tag">Professional</span></span>
+              <span class="skill-chip"><span class="chip-name">Hindi</span><span class="chip-tag">Native</span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         FEATURED PROJECTS SECTION
+         Clean, High-Impact Case Studies
+         ========================================================================== -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Applied Analytics Projects</span>
+          <h2 class="section-title">Case Studies &amp; Practical Implementations</h2>
+          <p class="section-subtitle">
+            Real-world business analysis projects drawn directly from my verified resume. Explore detailed problem contexts, data architectures, DAX code, and quantifiable business outcomes.
+          </p>
+        </div>
+
+        <div class="case-studies-container">
+          <!-- Project 1: Sales Performance Dashboard -->
+          <article class="case-study-card" data-project-id="sales-dashboard">
+            <div class="case-study-top">
+              <div class="case-study-meta">
+                <span class="meta-tag bi-tag">Power BI &bull; DAX &bull; Data Modeling</span>
+                <span class="meta-year">2024</span>
+                <span class="status-badge-inline">Adopted for Weekly Leadership Reviews</span>
+              </div>
+              <h3 class="case-study-title">Sales Performance Dashboard</h3>
+              <p class="case-study-summary">
+                Interactive Power BI executive dashboard analyzing multi-regional retail sales performance and product category trends. Replaced manual spreadsheet reporting with dynamic DAX time-intelligence calculations, automated Star Schema modeling, and instant cross-filtering slicers.
+              </p>
+            </div>
+
+            <!-- Telemetry Bar -->
+            <div class="case-study-telemetry">
+              <div class="telemetry-box">
+                <span class="t-label">Total Revenue</span>
+                <span class="t-val">$1.24M</span>
+                <span class="t-sub positive">+14.2% YoY Growth</span>
+              </div>
+              <div class="telemetry-box">
+                <span class="t-label">Profit Margin</span>
+                <span class="t-val">23.8%</span>
+                <span class="t-sub positive">Dynamic DAX Measures</span>
+              </div>
+              <div class="telemetry-box">
+                <span class="t-label">Data Architecture</span>
+                <span class="t-val">Star Schema</span>
+                <span class="t-sub">Regional &amp; Date Dimensions</span>
+              </div>
+              <div class="telemetry-box">
+                <span class="t-label">Operational Impact</span>
+                <span class="t-val">Zero Delays</span>
+                <span class="t-sub">Weekly Leadership Reviews</span>
+              </div>
+            </div>
+
+            <div class="case-study-bottom">
+              <div class="case-study-tools">
+                <span class="tool-pill">Power BI Desktop</span>
+                <span class="tool-pill">DAX</span>
+                <span class="tool-pill">Star Schema</span>
+                <span class="tool-pill">Dynamic Slicers</span>
+                <span class="tool-pill">Drill-Through</span>
+                <span class="tool-pill">YoY Growth</span>
+              </div>
+
+              <div class="case-study-actions">
+                <button class="btn btn-outline btn-sm open-case-study" data-project="sales-dashboard">
+                  <span>Explore Case Study &amp; DAX Code</span>
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: SQL + Python Integrated Analytics Pipeline -->
+          <article class="case-study-card" data-project-id="sql-pipeline">
+            <div class="case-study-top">
+              <div class="case-study-meta">
+                <span class="meta-tag sql-tag">SQL &bull; PostgreSQL &bull; SQLite &bull; Python</span>
+                <span class="meta-year">2023</span>
+                <span class="status-badge-inline">Automated Relational ETL</span>
+              </div>
+              <h3 class="case-study-title">SQL + Python Integrated Analytics Pipeline</h3>
+              <p class="case-study-summary">
+                End-to-end data pipeline importing and structuring relational datasets across SQLite and PostgreSQL, executing complex window functions and Common Table Expressions (CTEs), and piping cleaned data into Jupyter for downstream modeling.
+              </p>
+            </div>
+
+            <div class="case-study-telemetry">
+              <div class="telemetry-box">
+                <span class="t-label">Relational Storage</span>
+                <span class="t-val">PostgreSQL &bull; SQLite</span>
+                <span class="t-sub">Normalized Multi-Table Joins</span>
+              </div>
+              <div class="telemetry-box">
+                <span class="t-label">Analytical Queries</span>
+                <span class="t-val">DENSE_RANK()</span>
+                <span class="t-sub positive">Partitioned Window Functions</span>
+              </div>
+              <div class="telemetry-box">
+                <span class="t-label">Python Ingestion</span>
+                <span class="t-val">SQLAlchemy</span>
+                <span class="t-sub positive">Automated DataFrames</span>
+              </div>
+              <div class="telemetry-box">
+                <span class="t-label">Execution Environment</span>
+                <span class="t-val">Jupyter Lab</span>
+                <span class="t-sub">Reproducible Notebooks</span>
+              </div>
+            </div>
+
+            <div class="case-study-bottom">
+              <div class="case-study-tools">
+                <span class="tool-pill">SQL</span>
+                <span class="tool-pill">PostgreSQL</span>
+                <span class="tool-pill">SQLite</span>
+                <span class="tool-pill">Python</span>
+                <span class="tool-pill">Pandas</span>
+                <span class="tool-pill">Window Functions</span>
+                <span class="tool-pill">CTEs</span>
+                <span class="tool-pill">Jupyter</span>
+              </div>
+
+              <div class="case-study-actions">
+                <button class="btn btn-outline btn-sm open-case-study" data-project="sql-pipeline">
+                  <span>Explore Case Study &amp; SQL Queries</span>
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Customer Segmentation & Behavior Analysis -->
+          <article class="case-study-card" data-project-id="customer-segmentation">
+            <div class="case-study-top">
+              <div class="case-study-meta">
+                <span class="meta-tag rfm-tag">Power BI &bull; Clustering &bull; RFM Modeling</span>
+                <span class="meta-year">2024</span>
+                <span class="status-badge-inline">80/20 Pareto Cohort Discovery</span>
+              </div>
+              <h3 class="case-study-title">Customer Segmentation &amp; Behavior Analysis</h3>
+              <p class="case-study-summary">
+                RFM-inspired Power BI analytical dashboard segmenting purchasing cohorts by Recency, Frequency, and Monetary value. Isolated the top 20% champion accounts driving 80% of gross revenue while identifying at-risk high-value customers prior to churn.
+              </p>
+            </div>
+
+            <div class="case-study-telemetry">
+              <div class="telemetry-box">
+                <span class="t-label">Champions Cohort</span>
+                <span class="t-val">Top 20%</span>
+                <span class="t-sub positive">80% of Total Revenue</span>
+              </div>
+              <div class="telemetry-box">
+                <span class="t-label">Behavior Clustering</span>
+                <span class="t-val">R &bull; F &bull; M</span>
+                <span class="t-sub">Quantile Segmentation</span>
+              </div>
+              <div class="telemetry-box">
+                <span class="t-label">Retention Impact</span>
+                <span class="t-val">Pre-Churn Flags</span>
+                <span class="t-sub positive">VIP Concierge Outreach</span>
+              </div>
+              <div class="telemetry-box">
+                <span class="t-label">Budget Allocation</span>
+                <span class="t-val">Optimized ROI</span>
+                <span class="t-sub">Targeted Drip Sequences</span>
+              </div>
+            </div>
+
+            <div class="case-study-bottom">
+              <div class="case-study-tools">
+                <span class="tool-pill">Power BI</span>
+                <span class="tool-pill">RFM Modeling</span>
+                <span class="tool-pill">Clustering</span>
+                <span class="tool-pill">Pareto 80/20</span>
+                <span class="tool-pill">Retention Strategy</span>
+                <span class="tool-pill">Customer LTV</span>
+                <span class="tool-pill">Excel</span>
+              </div>
+
+              <div class="case-study-actions">
+                <button class="btn btn-outline btn-sm open-case-study" data-project="customer-segmentation">
+                  <span>Explore Case Study &amp; Cohort Models</span>
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: Tata Group AI Analytics Simulation -->
+          <article class="case-study-card" data-project-id="tata-experience">
+            <div class="case-study-top">
+              <div class="case-study-meta">
+                <span class="meta-tag tata-tag">Tata iQ &bull; Forage &bull; Financial Analytics</span>
+                <span class="meta-year">June 2026</span>
+                <span class="status-badge-inline corporate-badge">Enterprise Simulation</span>
+              </div>
+              <h3 class="case-study-title">Tata Group Data Analytics Virtual Job Simulation</h3>
+              <p class="case-study-summary">
+                Completed an intensive enterprise simulation focused on AI-powered analytics and strategy for Tata iQ's Financial Services team. Formulated no-code predictive delinquency risk frameworks, evaluated anomaly patterns using GenAI, and designed responsible collections workflows.
+              </p>
+            </div>
+
+            <div class="case-study-telemetry">
+              <div class="telemetry-box">
+                <span class="t-label">Mandate</span>
+                <span class="t-val">Credit Risk</span>
+                <span class="t-sub">Delinquency Framework</span>
+              </div>
+              <div class="telemetry-box">
+                <span class="t-label">Analysis Method</span>
+                <span class="t-val">GenAI EDA</span>
+                <span class="t-sub positive">Early Warning Indicators</span>
+              </div>
+              <div class="telemetry-box">
+                <span class="t-label">Collections Design</span>
+                <span class="t-val">Agentic AI</span>
+                <span class="t-sub">Empathetic Borrower Flow</span>
+              </div>
+              <div class="telemetry-box">
+                <span class="t-label">Governance</span>
+                <span class="t-val">Explainable AI</span>
+                <span class="t-sub positive">Fair Lending Standards</span>
+              </div>
+            </div>
+
+            <div class="case-study-bottom">
+              <div class="case-study-tools">
+                <span class="tool-pill">Tata iQ Framework</span>
+                <span class="tool-pill">Financial Analytics</span>
+                <span class="tool-pill">GenAI EDA</span>
+                <span class="tool-pill">Delinquency Scoring</span>
+                <span class="tool-pill">Responsible AI</span>
+                <span class="tool-pill">Explainable AI (XAI)</span>
+              </div>
+
+              <div class="case-study-actions">
+                <button class="btn btn-outline btn-sm open-case-study" data-project="tata-experience">
+                  <span>Explore Tata iQ Case Study</span>
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5: E-Commerce Data Cleaning & EDA -->
+          <article class="case-study-card" data-project-id="ecommerce-eda">
+            <div class="case-study-top">
+              <div class="case-study-meta">
+                <span class="meta-tag python-tag">Python &bull; Pandas &bull; Seaborn</span>
+                <span class="meta-year">2024</span>
+                <span class="status-badge-inline">50,000+ Raw Rows</span>
+              </div>
+              <h3 class="case-study-title">E-Commerce Data Cleaning &amp; Exploratory Analysis</h3>
+              <p class="case-study-summary">
+                Comprehensive data cleaning and statistical exploratory data analysis of 50,000+ transaction rows in Python to uncover product anomalies, seasonal demand shifts, and category sales velocity. Handled IQR outlier filtering, duplicate removal, and missing values.
+              </p>
+            </div>
+
+            <div class="case-study-telemetry">
+              <div class="telemetry-box">
+                <span class="t-label">Dataset Volume</span>
+                <span class="t-val">50,000+</span>
+                <span class="t-sub">Transaction Rows</span>
+              </div>
+              <div class="telemetry-box">
+                <span class="t-label">Visualizations</span>
+                <span class="t-val">15+ Plots</span>
+                <span class="t-sub positive">Publication-Quality Seaborn</span>
+              </div>
+              <div class="telemetry-box">
+                <span class="t-label">Outlier Treatment</span>
+                <span class="t-val">IQR Filtering</span>
+                <span class="t-sub positive">100% Format Integrity</span>
+              </div>
+              <div class="telemetry-box">
+                <span class="t-label">Business Utility</span>
+                <span class="t-val">Restocking</span>
+                <span class="t-sub">Supply Chain Decision Deck</span>
+              </div>
+            </div>
+
+            <div class="case-study-bottom">
+              <div class="case-study-tools">
+                <span class="tool-pill">Python</span>
+                <span class="tool-pill">Pandas</span>
+                <span class="tool-pill">NumPy</span>
+                <span class="tool-pill">Matplotlib</span>
+                <span class="tool-pill">Seaborn</span>
+                <span class="tool-pill">IQR Outliers</span>
+                <span class="tool-pill">Jupyter</span>
+              </div>
+
+              <div class="case-study-actions">
+                <button class="btn btn-outline btn-sm open-case-study" data-project="ecommerce-eda">
+                  <span>Explore 50K EDA Case Study</span>
+                  <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         EXPERIENCE & TIMELINE
+         ========================================================================== -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Career &amp; Practical Experience</span>
+          <h2 class="section-title">Experience &amp; Industry Simulations</h2>
+          <p class="section-subtitle">
+            Structured chronological timeline of professional analytics programs, corporate simulations, and real-world analytical implementations.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <!-- Timeline Item 1: Tata Group Simulation -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header-meta">
+                <span class="timeline-date">June 2026 / Completed</span>
+                <span class="timeline-role-badge">Virtual Job Simulation</span>
+              </div>
+              <h3 class="timeline-title">Tata Group Data Analytics Job Simulation</h3>
+              <div class="timeline-org">Tata iQ (Financial Services) &bull; Forage</div>
+              <p class="timeline-desc">
+                Completed an intensive enterprise simulation focused on AI-powered data analytics and strategic framework development for the Financial Services team at Tata iQ.
+              </p>
+              <ul class="timeline-bullets">
+                <li>Performed exploratory data analysis (EDA) using GenAI tools to assess data quality, evaluate anomalies, and identify delinquency risk indicators.</li>
+                <li>Developed a no-code predictive modeling framework to assess customer delinquency risk, establishing feature selection standards and risk segmentation rules.</li>
+                <li>Designed an AI-driven collections system leveraging agentic automation, explainable AI (XAI) principles, and regulatory compliance.</li>
+                <li>Formulated recommendations for responsible AI adoption balancing business bottom-line, customer empathy, and governance requirements.</li>
+              </ul>
+              <div class="timeline-tags">
+                <span class="tag">Tata iQ</span>
+                <span class="tag">Financial Analytics</span>
+                <span class="tag">Delinquency Modeling</span>
+                <span class="tag">Responsible AI</span>
+                <span class="tag">Forage</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2: End-to-End Analytics & Dashboard Engineering -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header-meta">
+                <span class="timeline-date">2024</span>
+                <span class="timeline-role-badge">Analytics Project Portfolio</span>
+              </div>
+              <h3 class="timeline-title">Data Analytics &amp; Dashboard Development</h3>
+              <div class="timeline-org">Independent &amp; Collaborative Analytics Projects</div>
+              <p class="timeline-desc">
+                Conducted rigorous end-to-end analytics initiatives utilizing 50,000+ transaction datasets to deliver executive visibility and customer intelligence.
+              </p>
+              <ul class="timeline-bullets">
+                <li>Engineered interactive Power BI dashboards monitoring retail sales across multi-region product hierarchies; adopted for recurring weekly leadership reviews.</li>
+                <li>Formulated an RFM customer segmentation model isolating the top 20% high-value cohort generating 80% of sales volume.</li>
+                <li>Conducted large-scale EDA via Python (Pandas/Seaborn), producing 15+ publication-grade statistical charts for business stakeholders.</li>
+              </ul>
+              <div class="timeline-tags">
+                <span class="tag">Power BI</span>
+                <span class="tag">DAX</span>
+                <span class="tag">Python</span>
+                <span class="tag">Pandas</span>
+                <span class="tag">RFM Analysis</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3: Relational Data Pipeline Engineering -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header-meta">
+                <span class="timeline-date">2023</span>
+                <span class="timeline-role-badge">Database &amp; Pipeline Engineering</span>
+              </div>
+              <h3 class="timeline-title">SQL + Python Integrated Analytics Pipeline</h3>
+              <div class="timeline-org">Aryabhatta Technical Research &bull; Ajmer</div>
+              <p class="timeline-desc">
+                Designed structured database schemas and programmatic pipelines bridging raw transactional storage with downstream data science environments.
+              </p>
+              <ul class="timeline-bullets">
+                <li>Imported and modeled complex datasets into SQLite and PostgreSQL; authored advanced queries utilizing multi-table joins, subqueries, and window functions.</li>
+                <li>Created automated ingestion scripts in Jupyter Notebooks to pull queried relational tables directly into Pandas DataFrames.</li>
+                <li>Maintained clean documentation and reproducible environments enabling frictionless peer review.</li>
+              </ul>
+              <div class="timeline-tags">
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">SQLite</span>
+                <span class="tag">Window Functions</span>
+                <span class="tag">Jupyter</span>
+                <span class="tag">ETL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         EDUCATION SECTION
+         ========================================================================== -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Foundation</span>
+          <h2 class="section-title">Education &amp; Qualifications</h2>
+          <p class="section-subtitle">
+            Formal technical education providing the mathematical, algorithmic, and database foundations for modern analytics.
+          </p>
+        </div>
+
+        <div class="education-grid">
+          <!-- B.Tech Degree Card -->
+          <div class="education-card primary-card">
+            <div class="edu-badge">Graduated Aug 2024</div>
+            <div class="edu-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+            </div>
+            <h3 class="edu-degree">B.Tech – Computer Science &amp; Engineering</h3>
+            <div class="edu-institute">
+              <strong>Aryabhatta College of Engineering &amp; Research Centre</strong>
+              <span>Bikaner Technical University (BTU), Ajmer, Rajasthan</span>
+            </div>
+            <p class="edu-summary">
+              Comprehensive 4-year engineering curriculum focused on computer science fundamentals, data management, and computation.
+            </p>
+            <div class="coursework-block">
+              <span class="coursework-title">Relevant Core Coursework:</span>
+              <div class="coursework-tags">
+                <span class="c-tag">Database Management Systems (DBMS)</span>
+                <span class="c-tag">Statistics for Computing</span>
+                <span class="c-tag">Data Structures &amp; Algorithms (DSA)</span>
+                <span class="c-tag">Object-Oriented Programming (OOP)</span>
+                <span class="c-tag">Operating Systems</span>
+                <span class="c-tag">Computer Networks</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Secondary Education Cards -->
+          <div class="secondary-edu-column">
+            <div class="education-card secondary-card">
+              <div class="edu-badge">2020</div>
+              <h4 class="edu-degree-sm">Class 12 – Science (RBSE)</h4>
+              <div class="edu-institute-sm">Meera Sr. Sec. School, Ajmer</div>
+              <p class="edu-note">Mathematics, Physics &amp; Chemistry foundation strengthening analytical and quantitative reasoning.</p>
+            </div>
+
+            <div class="education-card secondary-card">
+              <div class="edu-badge">2018</div>
+              <h4 class="edu-degree-sm">Class 10 – (RBSE)</h4>
+              <div class="edu-institute-sm">Govt. School, Ajmer</div>
+              <p class="edu-note">Secondary school education with high honors in Mathematics and Science.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         RESUME CALL TO ACTION BANNER
+         ========================================================================== -->
+    <section class="section resume-cta-section" id="resume-cta">
+      <div class="container">
+        <div class="resume-cta-banner">
+          <div class="cta-badge">Verified Resume &bull; 2026 Profile</div>
+          <h2 class="cta-headline">Review My Complete Technical Dossier</h2>
+          <p class="cta-text">
+            Looking for a Data Analyst who can immediately handle complex database querying, rigorous data wrangling, DAX modeling, and stakeholder storytelling? Review my verified resume dossier or download the official PDF.
+          </p>
+
+          <div class="cta-buttons">
+            <button class="btn btn-primary btn-lg" id="ctaPreviewResumeBtn">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>
+              <span>View Resume in Browser</span>
+            </button>
+            <a href="Rishabh_Parashar_Resume.pdf" download="Rishabh_Parashar_Resume.pdf" class="btn btn-secondary btn-lg">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download Official PDF</span>
+            </a>
+          </div>
+
+          <div class="resume-meta-info">
+            <span>ATS-Optimized PDF</span>
+            <span>&bull;</span>
+            <span>Verified Source from Resume</span>
+            <span>&bull;</span>
+            <span>59 KB</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CONTACT SECTION
+         ========================================================================== -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Let's Connect</h2>
+          <p class="section-subtitle">
+            I am actively seeking Data Analyst opportunities. Whether you have an open role, an analytics problem to discuss, or want to review my portfolio notebooks, feel free to reach out.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Direct Contact Information Cards -->
+          <div class="contact-info-cards">
+            <!-- Email -->
+            <a href="mailto:er.rishabh0055@gmail.com" class="contact-card">
+              <div class="contact-icon email-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">Email Address</span>
+                <span class="contact-val">er.rishabh0055@gmail.com</span>
+                <span class="contact-action">Click to send direct email &rarr;</span>
+              </div>
+            </a>
+
+            <!-- Phone -->
+            <a href="tel:+917426032052" class="contact-card">
+              <div class="contact-icon phone-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">Phone &bull; WhatsApp</span>
+                <span class="contact-val">+91 74260 32052</span>
+                <span class="contact-action">Call or message &rarr;</span>
+              </div>
+            </a>
+
+            <!-- Location -->
+            <div class="contact-card static-card">
+              <div class="contact-icon location-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">Current Location</span>
+                <span class="contact-val">Jaipur, Rajasthan, India</span>
+                <span class="contact-sub">Open to Relocation &amp; Remote</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Professional Profiles & Fast Action Card -->
+          <div class="contact-action-card">
+            <h3 class="action-card-title">Professional Hubs</h3>
+            <p class="action-card-desc">
+              All code notebooks, schemas, and case study files are hosted publicly on GitHub and LinkedIn.
+            </p>
+
+            <div class="profile-links-list">
+              <a href="https://linkedin.com/in/rishabh-parashar0555" target="_blank" rel="noopener noreferrer" class="profile-link-item">
+                <div class="p-icon linkedin-brand">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                  </svg>
+                </div>
+                <div class="p-text">
+                  <span class="p-name">LinkedIn Profile</span>
+                  <span class="p-url">linkedin.com/in/rishabh-parashar0555</span>
+                </div>
+                <svg class="p-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+
+              <a href="https://github.com/errishabh0055-hub" target="_blank" rel="noopener noreferrer" class="profile-link-item">
+                <div class="p-icon github-brand">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                  </svg>
+                </div>
+                <div class="p-text">
+                  <span class="p-name">GitHub Repositories</span>
+                  <span class="p-url">github.com/errishabh0055-hub</span>
+                </div>
+                <svg class="p-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+
+              <a href="https://resume-rishabh.vercel.app" target="_blank" rel="noopener noreferrer" class="profile-link-item">
+                <div class="p-icon vercel-brand">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <polygon points="12 1 24 22 0 22"></polygon>
+                  </svg>
+                </div>
+                <div class="p-text">
+                  <span class="p-name">Online Portfolio Website</span>
+                  <span class="p-url">resume-rishabh.vercel.app</span>
+                </div>
+                <svg class="p-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+
+            <!-- Fast Copy Email Trigger -->
+            <div class="quick-copy-box">
+              <span class="copy-box-label">Quick Copy Email:</span>
+              <button class="btn btn-copy" id="copyEmailBtn">
+                <span id="copyEmailText">er.rishabh0055@gmail.com</span>
+                <span class="copy-badge" id="copyBadge">Copy</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <div class="footer-brand">
+          <span class="f-name">Rishabh Parashar</span>
+          <span class="f-role">Data Analyst</span>
+        </div>
+        <p class="footer-sub">
+          Turning raw datasets into decisive business intelligence through Python, SQL, Power BI, and Excel.
+        </p>
+      </div>
+
+      <div class="footer-right">
+        <div class="footer-nav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-credits">
+          <span>&copy; 2026 Rishabh Parashar. All rights reserved.</span>
+          <span>Jaipur, Rajasthan, India</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CASE STUDY DETAIL MODAL -->
+  <div class="modal-backdrop" id="caseStudyModal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <span class="modal-eyebrow" id="modalEyebrow">Case Study</span>
+          <h3 class="modal-title" id="modalTitle">Project Title</h3>
+        </div>
+        <button class="modal-close-btn" id="closeModalBtn" aria-label="Close Project Details">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <div class="modal-body" id="modalBody">
+        <!-- Injected Dynamically via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- RESUME PREVIEW MODAL -->
+  <div class="modal-backdrop" id="resumeModal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-lg">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <span class="modal-eyebrow">Official Document</span>
+          <h3 class="modal-title">Rishabh Parashar &bull; Data Analyst Resume</h3>
+        </div>
+        <div class="modal-header-actions">
+          <a href="Rishabh_Parashar_Resume.pdf" download="Rishabh_Parashar_Resume.pdf" class="btn btn-primary btn-sm">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span>Download PDF</span>
+          </a>
+          <button class="modal-close-btn" id="closeResumeModalBtn" aria-label="Close Resume Preview">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="modal-body modal-body-pdf">
+        <iframe src="Rishabh_Parashar_Resume.pdf#toolbar=1&navpanes=0" class="pdf-viewer-frame" title="Rishabh Parashar Resume PDF">
+          <p>Your browser doesn't support embedded PDFs. <a href="Rishabh_Parashar_Resume.pdf" download>Click here to download the resume directly.</a></p>
+        </iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
